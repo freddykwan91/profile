@@ -9,26 +9,38 @@
 .basic{
   border-bottom: 3px dashed #cccccc;
   text-align: center;
-  height:50vh;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.avatar{
+  padding: 50px;
 }
 .avatar-image{
   height: 300px;
   width: 300px;
-  filter: grayscale(30%);
+  opacity: 0.8;
   border-radius: 50%;
   border: 1px solid #cccccc;
 }
 .profile-name h1{
-  font-size: 60px;
-  letter-spacing: 1px;
+  font-size: 64px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
 }
 .profile-title h2{
-  font-size: 48px;
-  letter-spacing: 1px;
+  font-size: 56px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
 }
 .profile-description p{
   font-size: 31px;
   letter-spacing: 1px;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
 }
 
 /*social*/
@@ -36,17 +48,70 @@
   border-bottom: 3px dashed #cccccc;
   text-align: center;
 }
-.list-inline {
+.list-inline{
   margin: 0;
 }
-.list-inline > li {
+.list-inline > li{
   display: inline-block;
+  padding: 40px;
 }
-.social-icon > a {
-  font-size: 70px;
+.social-icon > a{
+  font-size: 80px;
   color: #dedddd;
-  a:hover {
-    color: #EE2B47;
-  }
+}
+.social-icon > a:hover{
+  color: #EB5757;
 }
 
+/*portfolio*/
+.portfolio{
+  border-bottom: 3px dashed #cccccc;
+  padding: 80px 0px 80px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.section-title h2{
+  font-size: 56px;
+  text-align: center;
+  margin-bottom: 0px;
+  padding: 10px 0px 10px 0px;
+}
+.portfolio-body{
+  display: flex;
+  justify-content: space-around;
+}
+.portfolio-sub-body1{
+  padding: 20px 0px 0px 40px;
+}
+.portfolio-icon > a{
+  font-size: 160px;
+  color: #dedddd;
+}
+.portfolio-icon > a:hover{
+  color: #EB5757;
+}
+.portfolio-sub-body2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.portfolio-title h3{
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+.portfolio-description p{
+  font-size: 31px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+.portfolio-link p{
+  font-size: 31px;
+  color: #EB5757;
+  margin-bottom: 0px;
+}
+.portfolio-link > a:hover{
+  color: #EB5757;
+}
