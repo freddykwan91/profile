@@ -1,5 +1,5 @@
 /*================*/
-/*====FONT CONTROL*/
+/*FONT CONTROL*/
 /*================*/
 
 .container {
@@ -27,7 +27,7 @@
 }
 
 /*================*/
-/*==========HEADER*/
+/*HEADER*/
 /*================*/
 
 .header {
@@ -67,17 +67,16 @@
 }
 
 /*================*/
-/*==========SOCIAL*/
+/*SOCIAL*/
 /*================*/
 
 .social {
   height: 10vh;
   border-bottom: 3px dashed #cccccc;
   text-align: center;
-}
-.list-inline > li {
-  display: inline-block;
-  margin: 25px 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .social-icon > a {
   font-size: 80px;
@@ -88,7 +87,7 @@
 }
 
 /*================*/
-/*=======PORTFOLIO*/
+/*PORTFOLIO*/
 /*================*/
 
 .portfolio {
@@ -99,15 +98,15 @@
   margin-top: 80px;
   margin-bottom: 40px;
 }
-.portfolio-body {
+.section-body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-.portfolio-subbody {
+/*.portfolio-body {
   display: flex;
   justify-content: space-around;
-}
+}*/
 .portfolio-icon > a {
   font-size: 160px;
   color: #dedddd;
@@ -115,14 +114,14 @@
 .portfolio-icon > a:hover {
   color: #EB5757;
 }
-.portfolio-part2 {
+.portfolio-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.portfolio-link p {
+.project-link p {
   color: #EB5757;
 }
-.portfolio-link > a:hover {
+.project-link > a:hover {
   color: #EB5757;
 }
