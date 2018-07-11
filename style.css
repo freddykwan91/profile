@@ -20,7 +20,7 @@
   font-size: 45px;
 }
 .container h3 {
-  font-size: 35px;
+  font-size: 40px;
 }
 .container p {
   font-size: 30px;
@@ -95,18 +95,21 @@
 }
 .section-title h2 {
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 40px;
+  margin-top: 50px;
 }
 .section-body {
   display: flex;
-  flex-direction: column;
   justify-content: space-around;
 }
-/*.portfolio-body {
+.portfolio-body {
   display: flex;
-  justify-content: space-around;
-}*/
+  flex-direction: column;
+  width: 50%;
+}
+.portfolio-icon {
+  display: flex;
+  justify-content: center;
+}
 .portfolio-icon > a {
   font-size: 160px;
   color: #dedddd;
@@ -115,11 +118,17 @@
   color: #EB5757;
 }
 .portfolio-description {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+.project-title h3,
+.project-description p,
+.project-link p {
+  text-align: center;
 }
 .project-link p {
+  margin-top: 5px;
   color: #EB5757;
 }
 .project-link > a:hover {
