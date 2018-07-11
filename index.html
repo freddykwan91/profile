@@ -2,71 +2,137 @@
 <html>
 
 <head>
+  <!-- META -->
   <meta charset="utf-8">
   <title>Freddy Kwan</title>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+  <link rel="icon" type="image/png" sizes="174x174" href="images/freddy.jpg">
+
+  <!-- STYLESHEET -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 
 <body>
   <div class="container">
-    <div class="basic">
-
+    <!-- START OF HEADER -->
+    <div class="header">
       <div class="avatar">
         <img src="images/freddy.jpg" alt="Freddy" class="avatar-image">
       </div>
-
       <div class="profile-name">
         <h1>
           Freddy Kwan
         </h1>
       </div>
-
       <div class="profile-title">
         <h2>
           WEB DEVELOPER
         </h2>
       </div>
-
       <div class="profile-description">
         <p>
-          After years of Industrial Engineering experience in Silicon Valley, I decided to travel the world and become a Web Developer.
+          Shanghai, China
         </p>
       </div>
-
       <div>
-        <button type="button" class="btn btn-danger" style="padding: 10px 20px; font-size: 30px; font-weight: 100;">Hire me</button>
+        <button type="button" class="btn btn-danger" id="btn-hire">Hire me</button>
       </div>
-
     </div>
-
+    <!-- END OF HEADER -->
+    <!-- START OF SOCIAL -->
     <div class="social">
-      <ul class="list-inline">
-
-        <li class="social-icon">
-          <a href="https://www.github.com/freddykwan91/" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-
-        <li class="social-icon">
-          <a href="https://www.linkedin.com/in/freddykurniawan/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-
-        <li class="social-icon">
-          <a href="https://www.instagram.com/freddykwan91/" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-
-      </ul>
+      <div class="social-icon">
+        <a href="https://www.github.com/freddykwan91/" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="social-icon">
+        <a href="https://www.linkedin.com/in/freddykurniawan/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <div class="social-icon">
+        <a href="https://www.instagram.com/freddykwan91/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
     </div>
-
+    <!-- END OF SOCIAL -->
+    <!-- START OF PORTFOLIO -->
+    <div class="portfolio">
+      <div class="section-title">
+        <h2>
+          portfolio
+        </h2>
+      </div>
+      <div class="section-body">
+        <!-- START OF PORTFOLIO 1 -->
+        <div class="portfolio-body" id="portfolio1">
+          <div class="portfolio-icon">
+            <a href="https://www.wearewaterfall.com/" target="_blank">
+              <i class="far fa-chart-bar"></i>
+            </a>
+          </div>
+          <div class="portfolio-description">
+            <div class="project-title">
+              <h3>
+                Waterfall
+              </h3>
+            </div>
+            <div class="project-description">
+              <p>
+                a chart generator
+              </p>
+            </div>
+            <div class="project-link">
+              <a href="https://www.wearewaterfall.com/" target="_blank">
+                <p>
+                  learn more
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- END OF PORTFOLIO 1 -->
+        <!-- START OF PORTFOLIO 2 -->
+        <div class="portfolio-body" id="portfolio1">
+          <div class="portfolio-icon">
+            <a href="https://www.nusic.com/h5" target="_blank">
+              <i class="fas fa-headphones"></i>
+            </a>
+          </div>
+          <div class="portfolio-description">
+            <div class="project-title">
+              <h3>
+                NUSIC
+              </h3>
+            </div>
+            <div class="project-description">
+              <p>
+                a DJ gaming app
+              </p>
+            </div>
+            <div class="project-link">
+              <a href="https://www.wearewaterfall.com/" target="_blank">
+                <p>
+                  learn more
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- END OF PORTFOLIO 2 -->
+      </div>
+    </div>
+    <!-- END OF PORTFOLIO -->
   </div>
 </body>
 
